@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="../Portfolio/img/Caius-Logo.PNG" type="image/x-icon" />
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="scripts.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300;8..144,400;8..144,700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <title>Caius Scipio Portfolio</title>
+
+</head>
+<body>
+    <header>
+        <!--
+        <div class="logo">
+            <img src="img/Caius-Logo.PNG" alt="Caius crest purple with black chevron and white horse">
+        </div>
+        -->
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Caius Scipio</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+        <img src="img/devcaius-01.jpg" alt="Caius Scipio smiling with mountains in the background" class="intro__img">
+    </section>
+
+    <!-- My Services -->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">What I do</h2>
+        <div class="services">
+            <div class="service"> <!-- / service -->
+                <h3>Languages & Technology</h3>
+                <p>HTML & CSS</p>
+                <p>JavaScript</p>
+                <p>React</p>
+                <p>Jest</p>
+                <p>GitHub</p>
+            </div>
+            <div class="service"> <!-- / service -->
+                <h3>Services</h3>
+                <p>Website design and development</p>
+                <p>E-commerce website development</p>
+                <p>WordPress website development</p>
+                <p>Website maintenance and support</p>
+            </div>
+<!--
+            <div class="service">
+                <h3>Testimonial</h3>
+                <p>"John is a highly skilled and experienced front end web developer. He delivered our new website on 
+                    time and within budget, and it looks and functions perfectly. I highly recommend John to anyone 
+                    looking for a front end web developer." - John Smith, CEO of Acme Corporation</p>
+            </div>
+-->
+        </div> <!-- / services -->
+
+        <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <!-- About Me -->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">Web developer based out of Japan</p>
+
+        <div class="about-me__body">
+            <p>
+                In April 2023, my friends got me interested in programming again. Before that, the only programming I 
+                did was in BASIC. Remember that one? Yeah, I had some catching up to do. It turns out that making 
+                things that live on the Internet is fun, challenging, and rewarding. A fun puzzle to solve for each 
+                project! The interest eventually led me to get Front-End certified through META.
+            </p>
+            <p>
+                Before making all these great things for the Internet, I was in the United States Army, and in my decade 
+                of service, I learned that I enjoy two things: teaching and the great outdoors. After 
+                the Army, you could find me in the classroom teaching English as a Foreign Language since 2005. So, if 
+                I'm not making great things for the Internet or in the classroom, then it's a safe bet I'm on a mountain 
+                enjoying the view or helping others to enjoy.
+            </p>
+        </div>
+
+        <img src="img/devcaius-02.jpg" alt="Caius standing on a mountain under a wooden torii" class="about-me__img">
+    </section>
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">My work</h2>
+        <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+
+        <div class="portfolio">
+
+            <!-- Portfolio item 08 -->
+            <a href="item/portfolio-item08.html" class="portfolio__item">
+                <img src="img/fCC-Magazine-Thumbnail.png" alt="a two column newpaper format introducing a new curriculum" class="portfolio__img" loading="lazy">
+            </a>
+
+            <!-- Portfolio item 07 -->
+            <a href="item/portfolio-item07.html" class="portfolio__item">
+                <img src="img/fCC-PhotoGallery-Thumbnail.png" alt="a two column collection of cat photos" class="portfolio__img" loading="lazy">
+            </a>
+
+            <!-- Portfolio item 06 -->
+            <a href="item/portfolio-item06.html" class="portfolio__item">
+                <img src="img/fCC-Survey-Thumbnail.png" alt="a survey form asking for personal information followed by some questions" class="portfolio__img" loading="lazy">
+            </a>
+
+            <!-- Portfolio item 05 -->
+            <a href="item/portfolio-item05.html" class="portfolio__item">
+                <img src="img/META-8-Thumbnail.png" alt="a hero section of a green and yellow restaurant page" class="portfolio__img" loading="lazy">
+            </a>
+
+            <!-- Portfolio item 04 -->
+            <a href="item/portfolio-item04.html" class="portfolio__item">
+                <img src="img/META-6-Thumbnail.png" alt="a dark blue hero section of a portfolio page" class="portfolio__img" loading="lazy">
+            </a>
+
+            <!-- Portfolio item 03 -->
+            <a href="item/portfolio-item03.html" class="portfolio__item">
+                <img src="img/META-5-Thumbnail.png" alt="a simple calulator" class="portfolio__img" loading="lazy">
+            </a>
+
+            <!-- Portfolio item 02 -->
+            <a href="item/portfolio-item02.html" class="portfolio__item">
+                <img src="img/META-4-Thumbnail.png" alt="a black and white jewelry webpage for Mangata & Gallo" class="portfolio__img" loading="lazy">
+            </a>
+
+            <!-- Portfolio item 01 -->
+            <a href="item/portfolio-item01.html" class="portfolio__item">
+                <img src="img/WD4E-Thumbnail.png" alt="a hiking website for CaiusHikes with a mountain in the hero section" class="portfolio__img" loading="lazy">
+            </a>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="mailto:caiuscipio@gmail.com" class="footer__link">E-mail</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://codepen.io/Caius-Scipio">
+                    <i class="fab fa-codepen"></i>
+                </a>
+            </li>
+            <!-- <li class="social-list__item">
+                <a class="social-list__link" href="http://dribbble.com">
+                    <i class="fab fa-dribbble"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://twitter.com">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li> -->
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/Caius-Scipio">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>

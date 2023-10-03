@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="../img/Caius-Logo.PNG" type="image/x-icon" />
+
+    <link rel="stylesheet" type="text/css" href="../styles.css">
+    <script src="../scripts.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" 
+    integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300;8..144,400;8..144,700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <title>Caius Scipio Portfolio</title>
+
+</head>
+<body>
+    <header>
+        <!--
+        <div class="logo">
+            <img src="..img/devcaius.png" alt="">
+        </div>
+        -->
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="../#index.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="../index.html#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="../index.html#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="../index.html#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="intro">
+        <h1 class="section__title section__title--intro">
+            The title <strong>of my project</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">META Calculator</p>
+        <img src="../img/META-5-Thumbnail.png" alt="a simple calulator" class="intro__img">
+    </section>
+
+    <div class="portfolio-item-individual">
+        <p>By 7 May 2023, less than one month into this META course, I had reviewed HTML and CSS, been taught JavaScript, 
+            GitHub, Jest, and React. It was time to create something in React. The project was to create a simple 
+            calculator and upon completion, I'd be moving on to what they called 'Advanced React'. This is that journey.
+        </p>
+        <img src="../img/META-5-Details.png" alt="a larger version of the simple calulator" class="portfolio-image-individual" loading="lazy">
+        <p class="portfolio-item-tech">
+            <i class="fab fa-html5"></i> 
+            <i class="fab fa-css3-alt"></i> 
+            <i class="fab fa-react"></i>
+            <i class="fab fa-js-square"></i>
+        </p>
+        <p><span class="underline">Project Requirements</span>:
+            <ul>
+                <li>
+                    Create a simple calculator in React that can perform four basic mathematical operations: addition, 
+                    subtraction, multiplication, and division
+                </li>
+            </ul>
+        </p>
+        <p><span class="underline">Lessons Learned</span>: 
+            Completing this calculator, I gained a deeper understanding on how to use reusable components to render views where 
+            data changes, to create more scalable and maintainable websites and apps, to use props to pass data between 
+            components, to create dynamic and interactive web pages and apps, and to build an application in React.
+        </p>
+        <p><span class="underline">Continued Development</span>: 
+            I was, needless to say, thrilled that I struggled through the JavaScript and React material portions of the 
+            course and was able to produce a functional piece of code. However, looking back, there are a number of 
+            things I would have made differently. They include: making it look like a calculator by adding a number pad, 
+            changing the buttons to resemble more commonly found buttons, and adding a bit more functionality, such as 
+            using percentages. This would be a great project to revisit in the future.
+        </p>
+    </div>
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="mailto:caiuscipio@gmail.com" class="footer__link">E-mail</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://codepen.io/Caius-Scipio">
+                    <i class="fab fa-codepen"></i>
+                </a>
+            </li>
+            <!-- <li class="social-list__item">
+                <a class="social-list__link" href="http://dribbble.com">
+                    <i class="fab fa-dribbble"></i>
+                </a>
+<i class="fab fa-js-square"></i>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://twitter.com">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li> -->
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/Caius-Scipio">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>

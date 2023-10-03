@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="../img/Caius-Logo.PNG" type="image/x-icon" />
+
+    <link rel="stylesheet" type="text/css" href="../styles.css">
+    <script src="../scripts.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" 
+    integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300;8..144,400;8..144,700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <title>Caius Scipio Portfolio</title>
+
+</head>
+<body>
+    <header>
+        <!--
+        <div class="logo">
+            <img src="../img/Caius-Logo.PNG" alt="">
+        </div>
+        -->
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="../#index.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="../index.html#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="../index.html#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="../index.html#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="intro">
+        <h1 class="section__title section__title--intro">
+            The title <strong>of my project</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">WD4E-Capstone</p>
+        <img src="../img/WD4E-Thumbnail.png" alt="a hiking website for CaiusHikes with a mountain in the hero section" 
+        class="intro__img">
+    </section>
+
+    <div class="portfolio-item-individual">
+        <p>In April of 2023, I completed my first course in web development. The course, WebDesign4Everyone (WD4E), was a 
+            6-week course given at the University of Michigan. I was nervous about turning in my first web page and this 
+            final project. I was excited that I passed, and it earned me my first certificate. What a great springboard 
+            of a project this was! It would encourage me to go on to get another certificate. Colleen Van Lent's advice 
+            during the course would stick with me when I had problems developing something for the web.</p>
+        <img src="../img/WD4E-Details.png" alt="a larger version of the hiking website" class="portfolio-image-individual" loading="lazy">
+        <p class="portfolio-item-tech">
+            <i class="fab fa-html5"></i> 
+            <i class="fab fa-css3-alt"></i> 
+        </p>
+        <p><span class="underline">Project Requirements</span>:
+            <ul>
+                <li>Create a site with three pages</li>
+                <li>Each page must have at least two semantic tags</li>
+                <li>Each page must validate at validator.w3.org</li>
+                <li>Each page must be responsive with at least two unique views</li>
+                <li>The site must have at least four images</li>
+                <li>Each page must be styled; not to impress, but to show competence</li>
+            </ul>
+        </p>
+        <p><span class="underline">Lessons Learned</span>: This project was my first time coding a page unsupported, and 
+            so it taught me how to write HTML and CSS, to make a multi-page website, locate resources to help guide me in 
+            creating objects, and to locate resources to ensure my code is accessible and standards compliant.
+        </p>
+        <p><span class="underline">Continued Development</span>: I was nervous about submitting this project because I wondered if I 
+            had done enough. Things I'd like to have made better included: the navigation was sticky, but the spacing is off, 
+            the hero image doesn't quite fit the section it is in, the responsive design isn't as functional as it should be, 
+            and most of all, I'd like to have added more content to the site look and feel more alive and attractive.
+        </p>
+    </div>
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="mailto:caiuscipio@gmail.com" class="footer__link">E-mail</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://codepen.io/Caius-Scipio">
+                    <i class="fab fa-codepen"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/Caius-Scipio">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>

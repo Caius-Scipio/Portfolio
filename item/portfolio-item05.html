@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="../img/Caius-Logo.PNG" type="image/x-icon" />
+
+    <link rel="stylesheet" type="text/css" href="../styles.css">
+    <script src="../scripts.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" 
+    integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300;8..144,400;8..144,700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <title>Caius Scipio Portfolio</title>
+
+</head>
+<body>
+    <header>
+        <!--
+        <div class="logo">
+            <img src="..img/devcaius.png" alt="">
+        </div>
+        -->
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="../#index.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="../index.html#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="../index.html#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="../index.html#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="intro">
+        <h1 class="section__title section__title--intro">
+            The title <strong>of my project</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">META Little Lemon</p>
+        <img src="../img/META-8-Thumbnail.png" alt="a hero section of a green and yellow restaurant page" class="intro__img">
+    </section>
+
+    <div class="portfolio-item-individual">
+        <p>
+            It was now the end of May 2023, and the final project was assigned. There would be very little help or 
+            guidance on this one. I was given a stylesheet for fonts, colors, and sizes to use. I would be walked through and 
+            evaluated on the processes of wireframes, mockups, prototypes, and the initial site build. Then I had to use 
+            React to make the table-booking system function properly.
+        </p>
+        <img src="../img/META-8-Details.png" alt="a larger version of the restaurant webpage" class="portfolio-image-individual" loading="lazy">
+        <p class="portfolio-item-tech">
+            <i class="fab fa-html5"></i> 
+            <i class="fab fa-css3-alt"></i> 
+            <i class="fab fa-react"></i> 
+            <i class="fab fa-js-square"></i> 
+        </p>
+        <p><span class="underline">Project Requirements</span>:
+            <ul>
+                <li>All pages will preserve the style guide</li>
+                <li>Have a Reserve-A-Table button on the main page</li>
+                <li>Reservation screen that will include an element to input the date, the time, the number of diners, 
+                    the occasion, and a button to link to the next screen</li>
+                <li>Reservation form that will include the customer's first and last name, contact information, required 
+                    fields should be indicated with relevant warnings, a button to confirm or submit the customer 
+                    information</li>
+                <li>A successful reservation submission confirmation message</li>
+            </ul>
+        </p>
+        <p><span class="underline">Lessons Learned</span>: 
+            I had to bring together multiple skills from throughout the 7-month course to solve this authentic real-world 
+            problem by building an app. It required me to think differently about building a page and how to go about 
+            doing that. Working through the issues I had with classmates taught me how to ask better questions to get 
+            more specific advice about the problem I had at hand.
+        </p>
+        <p><span class="underline">Continued Development</span>: 
+            This is a project that only required me to make a main page and one function for the restaurant. But as can 
+            be seen, there are many, many more options that can be flushed out for a more complete experience. I have a 
+            few styling issues, such as adding a background color on the navigation indicating which page the user is on or 
+            aligning text between sections a bit better, that I'd like to fix should I revisit this one.
+        </p>
+    </div>
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="mailto:caiuscipio@gmail.com" class="footer__link">E-mail</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://codepen.io/Caius-Scipio">
+                    <i class="fab fa-codepen"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/Caius-Scipio">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>
