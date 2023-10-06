@@ -246,6 +246,95 @@ header {
 .hamburger::before { top: 6px; }
 .hamburger::after { bottom: 6px; }
 
+.color-picker > fieldset {
+    border: 0;
+    display: flex;
+    gap: 1.4rem;
+    background-color: var(--clr-accent);
+    width: fit-content;
+    padding: 1rem 3rem;
+    border-radius: 10px;
+    margin-inline: auto;
+}
+
+.color-picker input[type="radio"] {
+    appearance: none;
+    width: 0.75rem;
+    height: 0.75rem;
+    outline: 2px solid var(--radio-clr, currentColor);
+    outline-offset: 3px;
+    border-radius: 50%;
+}
+
+.color-picker input[type="radio"]:checked {
+    background-color: var(--radio-clr);
+}
+
+.color-picker [type="radio"]#purple {
+    --radio-clr: #9A0794;
+}
+
+.color-picker [type="radio"]#green {
+    --radio-clr: #0c8346;
+}
+
+.color-picker [type="radio"]#brown {
+    --radio-clr: #423E37;
+}
+
+.color-picker [type="radio"]#blue {
+    --radio-clr: #336699;
+}
+
+.color-picker [type="radio"]#dark {
+    --radio-clr: #110B11;
+}
+
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    white-space: no-wrap;
+}
+
+.purple,
+:root:has(#purple:checked) {
+    --clr-light: #fff;
+    --clr-dark: #9A0794;
+    --clr-accent: #FBA90A;
+}
+
+.green,
+:root:has(#green:checked) {
+    --clr-light: #fff;
+    --clr-dark: #0c8346;
+    --clr-accent: #e5c2c0;
+}
+
+.brown,
+:root:has(#brown:checked) {
+    --clr-light: #EDEBD7;
+    --clr-dark: #423E37;
+    --clr-accent: #E3B23C;
+}
+
+.blue,
+:root:has(#blue:checked) {
+    --clr-light: #fff;
+    --clr-dark: #336699;
+    --clr-accent: #9EE493;
+}
+
+.dark,
+:root:has(#dark:checked) {
+    --clr-light: #8CADA7;
+    --clr-dark: #110B11;
+    --clr-accent: #B7990D;
+}
+
 
 /*  Introduction Section
     ============================================
