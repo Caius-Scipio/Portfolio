@@ -297,7 +297,7 @@ header {
     width: 1px;
     height: 1px;
     overflow: hidden;
-    white-space: no-wrap;
+    white-space: nowrap;
 }
 
 .purple,
