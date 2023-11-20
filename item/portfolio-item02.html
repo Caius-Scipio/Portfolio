@@ -1,138 +1,130 @@
 <!DOCTYPE html>
 <html lang="en-US">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="icon" href="../img/Caius-Logo.PNG" type="image/x-icon" />
+    <link rel="icon" href="../img/Caius-Logo.PNG" type="image/x-icon">
 
     <link rel="stylesheet" type="text/css" href="../styles.css">
-    <script src="../scripts.js" defer></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
     integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300;8..144,400;8..144,700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 
+    <script src="../scripts.js" defer></script>
+
     <title>Caius Scipio Portfolio</title>
-
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <!--
-        <div class="logo">
-            <img src="../img/Caius-Logo.PNG" alt="">
-        </div>
-        -->
-        <div>
-            <form class="color-picker" action="">
-                <fieldset>
-                    <legend class="visually-hidden">Pick a Color Scheme</legend>
-                    <label for="purple" class="visually-hidden">purple</label>
-                    <input type="radio" name="theme" id="purple" checked>
+      <!--
+      <div class="logo">
+          <img src="../img/Caius-Logo.PNG" alt="">
+      </div>
+      -->
+      <div>
+        <form class="color-picker" action="void">
+          <fieldset>
+            <legend class="visually-hidden">Pick a Color Scheme</legend>
+            <label for="purple" class="visually-hidden">purple</label>
+            <input type="radio" name="theme" id="purple" checked>
 
-                    <label for="blue" class="visually-hidden">blue</label>
-                    <input type="radio" name="theme" id="blue">
+            <label for="blue" class="visually-hidden">blue</label>
+            <input type="radio" name="theme" id="blue">
 
-                    <label for="green" class="visually-hidden">green</label>
-                    <input type="radio" name="theme" id="green">
+            <label for="green" class="visually-hidden">green</label>
+            <input type="radio" name="theme" id="green">
 
-                    <label for="brown" class="visually-hidden">brown</label>
-                    <input type="radio" name="theme" id="brown">
+            <label for="brown" class="visually-hidden">brown</label>
+            <input type="radio" name="theme" id="brown">
 
-                    <label for="dark" class="visually-hidden">dark</label>
-                    <input type="radio" name="theme" id="dark">
-                </fieldset>
-            </form>
-        </div>
-        <button class="nav-toggle" aria-label="toggle navigation">
-            <span class="hamburger"></span>
-        </button>
-        <nav class="nav">
-            <ul class="nav__list">
-                <li class="nav__item"><a href="../#index.html" class="nav__link">Home</a></li>
-                <li class="nav__item"><a href="../index.html#services" class="nav__link">My Services</a></li>
-                <li class="nav__item"><a href="../index.html#about" class="nav__link">About me</a></li>
-                <li class="nav__item"><a href="../index.html#work" class="nav__link">My Work</a></li>
-            </ul>
-        </nav>
+            <label for="dark" class="visually-hidden">dark</label>
+            <input type="radio" name="theme" id="dark">
+          </fieldset>
+        </form>
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="../#index.html" class="nav__link">Home</a></li>
+          <li class="nav__item"><a href="../index.html#services" class="nav__link">My Services</a></li>
+          <li class="nav__item"><a href="../index.html#about" class="nav__link">About me</a></li>
+          <li class="nav__item"><a href="../index.html#work" class="nav__link">My Work</a></li>
+        </ul>
+      </nav>
     </header>
 
     <section class="intro">
-        <h1 class="section__title section__title--intro">
-            The title <strong>of my project</strong>
-        </h1>
-        <p class="section__subtitle section__subtitle--intro">META Website</p>
-        <img src="../img/META-4-Thumbnail.png" alt="a black and white jewelry webpage for Mangata & Gallo" 
-        class="intro__img">
+      <h1 class="section__title section__title--intro">
+          The title <strong>of my project</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">META Website</p>
+      <img src="../img/META-4-Thumbnail.png" alt="a black and white jewelry webpage for Mangata & Gallo"
+      class="intro__img">
     </section>
 
     <div class="portfolio-item-individual">
-        <p>Wanting to learn more about web development, I fixed my sights on a 7-month course from META. It would begin 
-            by reviewing and expanding my knowledge of HTML and CSS, but also introduce JavaScript, Jest, and GitHub. By 
-            early May 2023, I would be assigned the task of designing a website for a fictional client. The bar has been 
-            raised, and this was the project I handed in. Its acceptance encouraged me to go on and learn more.</p>
-        <img src="../img/META-4-Details.png" alt="a larger version of the Mangata & Gallo jewelry website" class="portfolio-image-individual" loading="lazy">
-        <p class="portfolio-item-tech">
-            <i class="fab fa-html5"></i> 
-            <i class="fab fa-css3-alt"></i> 
-        </p>
-        <p><span class="underline">Project Requirements</span>:
+      <p>Wanting to learn more about web development, I fixed my sights on a 7-month course from META. It would begin by reviewing and expanding my knowledge of HTML and CSS, but also introduce JavaScript, Jest, and GitHub. By early May 2023, I would be assigned the task of designing a website for a fictional client. The bar has been raised, and this was the project I handed in. Its acceptance encouraged me to go on and learn more.</p>
+      <p><span class="underline">Original Code</span>: <a href="https://codepen.io/Caius-Scipio/pen/zYepoZR">CodePen</a> May 2023</p>
+      <img src="../img/META-4-Details.png" alt="a larger version of the Mangata & Gallo jewelry website" class="portfolio-image-individual" loading="lazy">
+      <p class="portfolio-item-tech">
+        <i class="fab fa-html5"></i>
+        <i class="fab fa-css3-alt"></i>
+      </p>
+      <p><span class="underline">Project Requirements</span>:
+        <ul>
+          <li>Create a semantic structure with a header, main content, and footer using either flexbox or grid</li>
             <ul>
-                <li>Create a semantic structure with a header, main content, and footer using either flexbox or grid</li>
-                    <ul>
-                        <li>Head will contain appropriate meta tags</li>
-                        <li>Header will contain the client's logo</li>
-                        <li>Main content will contain a large promotional banner and three columns with text and images</li>
-                        <li>Footer will contain two columns; a smaller logo in the first and copywrite info in the 
-                            second</li>
-                    </ul>
-                <li>HTML and CSS code are correctly formatted and valid</li>
-                <li>Styling should use your creativity for an appropriate look and feel</li>
-                <li>CSS selectors are not over-specific uses minimal selectors and rules</li>
-                <li>CSS effects and animations are complimentary and not distracting</li>
+              <li>Head will contain appropriate meta tags</li>
+              <li>Header will contain the client's logo</li>
+              <li>Main content will contain a large promotional banner and three columns with text and images</li>
+              <li>Footer will contain two columns; a smaller logo in the first and copywrite info in thesecond</li>
             </ul>
-        </p>
-        <p><span class="underline">Lessons Learned</span>: 
-            Making this site taught me a lot about making a website. Some of the key takeaways are using grids, reusing 
-            content but styling it differently, selecting better color palettes, and little details such as box shadows 
-            that can really liven up a page.
-        </p>
-        <p><span class="underline">Continued Development</span>: 
-            There are many things I enjoy about this site, but looking back, I would like to have made the images increase 
-            in scale when hovering over them, added a black border around focused items, made the rounded corners more 
-            uniform, and fixed the copywrite information to the left.
-        </p>
+          <li>HTML and CSS code are correctly formatted and valid</li>
+          <li>Styling should use your creativity for an appropriate look and feel</li>
+          <li>CSS selectors are not over-specific uses minimal selectors and rules</li>
+          <li>CSS effects and animations are complimentary and not distracting</li>
+        </ul>
+      </p>
+      <p><span class="underline">Lessons Learned</span>:
+          Making this site taught me a lot about making a website. Some of the key takeaways are using grids, reusing content but styling it differently, selecting better color palettes, and little details such as box shadows that can really liven up a page.
+      </p>
+      <p><span class="underline">Continued Development</span>:
+          There are many things I enjoy about this site, but looking back, I would like to have made the images increase in scale when hovering over them, added a black border around focused items, made the rounded corners more uniform, and fixed the copywrite information to the left.
+      </p>
     </div>
     <!-- Footer -->
     <footer class="footer">
-        <a href="mailto:caiuscipio@gmail.com" class="footer__link">E-mail</a>
-        <ul class="social-list">
-            <li class="social-list__item">
-                <a class="social-list__link" href="https://codepen.io/Caius-Scipio">
-                    <i class="fab fa-codepen"></i>
-                </a>
-            </li>
-            <!-- <li class="social-list__item">
-                <a class="social-list__link" href="http://dribbble.com">
-                    <i class="fab fa-dribbble"></i>
-                </a>
-<i class="fab fa-js-square"></i>
-<i class="fab fa-react"></i>
-            </li>
-            <li class="social-list__item">
-                <a class="social-list__link" href="https://twitter.com">
-                    <i class="fab fa-twitter"></i>
-                </a>
-            </li> -->
-            <li class="social-list__item">
-                <a class="social-list__link" href="https://github.com/Caius-Scipio">
-                    <i class="fab fa-github"></i>
-                </a>
-            </li>
-        </ul>
+      <a href="mailto:caiuscipio@gmail.com" class="footer__link">E-mail</a>
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://codepen.io/Caius-Scipio">
+            <i class="fab fa-codepen"></i>
+          </a>
+      </li>
+      <!-- <li class="social-list__item">
+          <a class="social-list__link" href="http://dribbble.com">
+              <i class="fab fa-dribbble"></i>
+          </a>
+        <i class="fab fa-js-square"></i>
+        <i class="fab fa-react"></i>
+      </li>
+      <li class="social-list__item">
+          <a class="social-list__link" href="https://twitter.com">
+              <i class="fab fa-twitter"></i>
+          </a>
+      </li> -->
+      <li class="social-list__item">
+          <a class="social-list__link" href="https://github.com/Caius-Scipio">
+              <i class="fab fa-github"></i>
+          </a>
+        </li>
+      </ul>
     </footer>
-</body>
+  </body>
 </html>
