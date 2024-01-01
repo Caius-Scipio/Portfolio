@@ -1,3 +1,3 @@
-#Portfolio
+# Portfolio
 
-This is my portfolio that showcases the work I done most recently.
+This portfolio showcases the most recent work I've done. Enjoy!
