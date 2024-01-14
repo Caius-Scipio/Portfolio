@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="../styles.css">
     <script src="../scripts.js" defer></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
     integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -64,34 +64,41 @@
         <h1 class="section__title section__title--intro">
             The title <strong>of my project</strong>
         </h1>
-        <p class="section__subtitle section__subtitle--intro">fCC Magazine</p>
-        <img src="../img/fCC-Magazine-Thumbnail.png" alt="a two column newpaper format introducing a new curriculum" class="intro__img">
+        <p class="section__subtitle section__subtitle--intro">Sticky Notes</p>
+        <img src="../img/StickyNote-480x480-Thumbnail.png" alt="a todo app resembling sticky notes" class="intro__img">
     </section>
 
     <div class="portfolio-item-individual">
         <p>
-            Every now and again, we need to go back to basics to see not only what we have missed or forgotten, but 
-            also to see how far we have progressed. This project from the freeCodeCamp is one of those projects.
+            Late 2023, I was thinking about a project to work on. Seeing a stack of Post-It Notes on my desk, I wondered if I could recreate them on the web. I haven't seen such a project. At least none using React. This was my attempt to create that.
         </p>
-        <img src="../img/fCC-Magazine-Details.png" alt="a larger view of the above with additional content" class="portfolio-image-individual" loading="lazy">
+        <p><span class="underline">Sticky Notes</span>: <a href="https://caius-scipio.github.io/sticky-notes/">GitHub</a></p>
+        <img src="../img/StickyNote-Details.png" alt="a larger view of the above with additional content" class="portfolio-image-individual" loading="lazy">
         <p class="portfolio-item-tech">
-            <i class="fab fa-html5"></i> 
-            <i class="fab fa-css3-alt"></i> 
-<!--            <i class="fab fa-react"></i> 
-            <i class="fab fa-js-square"></i> 
--->
+            <i class="fab fa-html5"></i>
+            <i class="fab fa-css3-alt"></i>
+            <i class="fab fa-js-square"></i>
+            <i class="fab fa-react"></i>
         </p>
         <p><span class="underline">Project Requirements</span>:
             <ul>
-                <li>Build a magazine article using CSS Grid</li>
-                <li>Include: 3 images, a quote, and history section</li>
+                <li>The App should have an interface to create and delete notes</li>
+                <li>Each note should have text and color values associated with it</li>
+                <li>Utilize "localStorage" for data persistence</li>
+                <li>Utilize React Hooks useState and useEffect for managing the note, color, and text state</li>
+                <li>Load exisiting sticky notes from localStorage when mounted</li>
             </ul>
         </p>
-        <p><span class="underline">Lessons Learned</span>: 
-            My major takeaway from this project was having a better grasp and understanding of how CSS Grid works.
+        <p><span class="underline">Lessons Learned</span>:
+            My major takeaway from this project was that transcribing JavaScript to React is possible, but not a simple ask. Programming-wise, this project got me thinking about implementing component based styling. I may try that in the future.
         </p>
-        <p><span class="underline">Continued Development</span>: 
-            As CSS Grid is not as intuitive as CSS Flexbox, I'd like to spend time working more on projects that use it.
+        <p><span class="underline">Continued Development</span>:
+            No project is ever done, and here are some things I'd like to work on in the future if I circle back to this project:
+            <ul>
+              <li>Add a priority to each note</li>
+              <li>Add a label to each note</li>
+              <li>Be able to sort by due date or color</li>
+            </ul>
         </p>
     </div>
     <!-- Footer -->
